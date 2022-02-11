@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Righteous&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor0: #d6d6d6;
+    --cor1: #473937;
+    --cor2: #2F2325;
+    --cor3: #FFF2E7;
+}
+
+
+body {
+    background-color: var(--cor0);
+    font-size: 100%;
+}
+
+.cabecalho {
+    background: linear-gradient(68.15deg, var(--cor2) 16.62%, var(--cor1) 85.61%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-cabecalho {
+    height: 130px;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+    font-family: 'Lato', sans-serif;
+    color: var(--cor3);
+    font-size: 20px;
+}
+
+.navbar > a {
+    text-decoration: none;
+    color: var(--cor3);
+}
+
+.img-banner {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
